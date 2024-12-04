@@ -1,7 +1,7 @@
 import { Contract, Wallet, ZeroAddress, type ContractTransaction } from 'npm:ethers'
 import "jsr:@std/dotenv/load";
 import { parseArgs } from "jsr:@std/cli/parse-args";
-import { abi } from './otto.abi.ts'
+import { abi } from './juicebox.abi.ts'
 import { base } from "./rpc.ts";
 import { xcall } from "./lifi.api.ts";
 import { ChainId } from "@lifi/types";
